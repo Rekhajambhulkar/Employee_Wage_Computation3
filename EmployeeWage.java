@@ -9,7 +9,7 @@ public static final int EMP_RATE_PER_HOUR=20;
 public static final int NUM_OF_WORKING_DAYS=20;
 public static final int MAX_HRS_IN_MONTH=100;
 
-public static void main(String[] args)
+public static int ComputeEmpWage()
 {
 //variables
 int totalEmpHours=0;
@@ -49,8 +49,12 @@ System.out.println("Day:" +NUM_OF_WORKING_DAYS+"Emp Hour:"+empHrs);
 }
 int totalEmpWage= totalEmpHours * EMP_RATE_PER_HOUR;
 System.out.println("Total Employee Wage:"+totalEmpWage);
-
-
-}
+return totalEmpWage;
 }
 
+public static void main(String args[])
+{
+ComputeEmpWage();
+}
+
+}
