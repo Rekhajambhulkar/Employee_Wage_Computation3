@@ -19,6 +19,7 @@ int totalWorkingDays=0;
 //Display the Welcome Message
 System.out.println("Welcome to the EmployeeWage Program");
 
+//calculate TotalWorkingDays & totalHours Using WhileLoop
 while(totalEmpHours <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS)
 	{
 		totalWorkingDays++;
@@ -54,6 +55,7 @@ return totalEmpWage;
 
 public static void main(String args[])
 {
+//call static method
 ComputeEmpWage();
 }
 
