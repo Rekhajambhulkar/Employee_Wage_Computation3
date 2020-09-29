@@ -3,6 +3,8 @@ public class EmployeeWage
 
 //CONSTANTS
 public static final int IS_Employee_Present=1;
+public static final int Wage_Per_Hour=20;
+public static final int Full_Time=1;
 
 public static void main(String[] args)
 {
