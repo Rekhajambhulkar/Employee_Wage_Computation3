@@ -6,7 +6,8 @@ public static final int IS_Employee_Present=1;
 public static final int Wage_Per_Hour=20;
 public static final int Full_Time=1;
 public static final int Part_Time=0;
-
+public static final int MAX_HRS_IN_MONTH=20;
+ 
 public static void main(String[] args)
 {
 //variables
